@@ -34,6 +34,20 @@ namespace StackAndQueue
 
             //Display Queue
             linkedListQueue.Display();
+            Console.WriteLine("----------------");
+
+            //Dequeue from queue
+            linkedListQueue.Dequeue();
+
+            //Empty Dequeue
+            linkedListQueue.IsEmpty();
+            
+            //Display Queue
+            linkedListQueue.Display();
+            Console.WriteLine("----------------");
+
+
+
         }
     }
 }
